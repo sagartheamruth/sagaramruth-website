@@ -40,7 +40,7 @@ body {
   }
   
   a:hover {
-    color: #EAF6F6;
+    color: #1c1d1d;
   }
   
   p {
@@ -148,14 +148,33 @@ body {
   
 /* Navbar */
 
-body ::-webkit-scrollbar {
+nav {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    
+}
+
+nav {
+    width: 30%;
+    margin: auto 200px auto 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}   
+
+body::-webkit-scrollbar {
     width: 0.25rem;
 }
 
-body ::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
     background: #1e1e24;
 }
 
-body ::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
     background: #6649b8;
 }
+
